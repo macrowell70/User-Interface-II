@@ -46,3 +46,28 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+header{
+    height: 20vh;
+    background-color: #4C5D6E;
+}
+
+.profile{
+    height: 30%;
+    display: flex;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    height: 20vh;
+    background-color: #4C5D6E;
+}
+
+img{
+    width: 20%;
+}
