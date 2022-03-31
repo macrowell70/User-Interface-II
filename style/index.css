@@ -48,26 +48,100 @@ table {
 }
 
 
+h1 {
+    font-size: 3.5rem;
+    margin: 10px;
+  }
+h2 {
+    font-size: 3rem;
+  }
+h3 {
+    font-size: 1.5rem;
+  }
+p{
+    font-size: 1.5rem;
+}
 header{
     height: 20vh;
     background-color: #4C5D6E;
+    box-sizing: border-box;
+}
+
+header nav{
+    margin-left: 50px;
+    margin-top: 35px;
+    font-size: 1.5rem;
+    display: flex;
+    align-content: flex-end;   
+}
+
+header a{
+    background: white;
+    border: 2px solid black;
+    color: #4C5D6E;
+    text-decoration: none;
+    padding: 5px;
+}
+
+header a:hover{
+    background-color: black;
 }
 
 .profile{
-    height: 30%;
+    height: 60vh;
     display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.profile img{
+    object-fit: cover;
+    border-radius: 25%;
+    object-position: bottom center;
+    width: 25%;
+}
+
+.profile .personal-info{
+    width: 60%;
+    height: 30vh;
+    margin-top: 30vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile .personal-info button{
+    width: 100px;
 }
 
 .projects{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin: 20px;
+}
+
+.projects .box{
+    text-align: center;
+    margin: 5%;
 }
 
 footer{
     height: 20vh;
     background-color: #4C5D6E;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-img{
-    width: 20%;
+footer a{
+    text-decoration: none;
+    color: black;
 }
+
+footer a:hover{
+    color: white;
+}
+
